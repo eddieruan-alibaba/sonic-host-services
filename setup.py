@@ -46,7 +46,7 @@ setup(
         'dbus-python',
         'systemd-python',
         'Jinja2>=2.10',
-        'PyGObject',
+        'PyGObject==3.50.0',
     ] + sonic_dependencies,
     setup_requires = [
         'pytest-runner',
